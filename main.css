@@ -1,0 +1,84 @@
+.googleLogo
+{
+  text-align: center;
+  padding-top: 200px;
+}
+.SearchBar
+{
+  display:block;
+  margin-left:370px;
+  margin-top:5px;
+}
+
+.myGoogleSearch
+  {
+  box-shadow:0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  height:40px;
+  width:584px;
+  border:none;
+  margin:35px 0;
+  }
+input:hover{
+  cursor:pointer;
+}
+.buttonWrapper
+{
+  margin-right:350px;
+  width:100%;
+  position:fixed;
+  align-items: center;
+  align-content: center;
+
+
+}
+.SearchButton:hover{
+  cursor:pointer;
+}
+.luckyFeeling:hover{
+  cursor:pointer;
+
+}
+.SearchButton{
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  float:left;
+  margin-right: 20px;
+  margin-left:100px;
+}
+
+
+.luckyFeeling
+{
+  height: 36px;
+line-height: 27px;
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 2px;
+color: #757575;
+cursor: default;
+font-family: arial,sans-serif;
+font-size: 13px;
+font-weight: bold;
+margin: 11px 4px;
+min-width: 54px;
+padding: 0 16px;
+text-align: center;
+float:none;
+margin-left: 10px;
+
+
+
+
+}
