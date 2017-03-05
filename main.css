@@ -1,13 +1,42 @@
+body{
+  font-family:arial;
+  font-size:13px;
+}
+
+ul{
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+  background-color: #f1f1f1;
+}
+.navBar
+{
+  background-color: #f1f1f1;
+  width: auto;
+  height: auto;
+
+}
+li
+
+{
+  float:right;
+  display:inline-block;
+  margin:5px;
+  line-height: 24px;
+
+}
 .googleLogo
 {
   text-align: center;
   padding-top: 200px;
+  background-color: white;
 }
 .SearchBar
 {
   display:block;
   margin-left:370px;
   margin-top:5px;
+  background-color: white;
 }
 
 .myGoogleSearch
@@ -19,7 +48,7 @@
   margin:35px 0;
   }
 input:hover{
-  cursor:pointer;
+  cursor:text;
 }
 .buttonWrapper
 {
@@ -51,7 +80,7 @@ input:hover{
   font-weight: bold;
   margin: 11px 4px;
   min-width: 54px;
-  padding: 0 16px;
+  padding: 0 16;
   text-align: center;
   float:left;
   margin-right: 20px;
@@ -73,12 +102,41 @@ font-size: 13px;
 font-weight: bold;
 margin: 11px 4px;
 min-width: 54px;
-padding: 0 16px;
+padding: 0 16;
 text-align: center;
 float:none;
 margin-left: 10px;
-
-
-
-
+}
+.offers
+{
+  font-family:arial;
+  font-size:12px;
+  margin-left:200px;
+  padding:0 0 30 0px;
+  margin-bottom:25px;
+}
+i
+{
+  text-decoration-color: blue;
+  color:blue;
+  cursor: pointer;
+}
+li:hover
+{
+  text-decoration: underline;
+cursor: pointer;
+}
+.NotIcon
+{
+  margin-top:3px;
+}
+.SignInTest
+{
+background: #4683EA;
+border-radius: 20px;
+box-sizing: border-box;
+padding: .5em .75em;
+line-height: 28px;
+letter-spacing: normal;
+width:100%;
 }
